@@ -1,0 +1,207 @@
+body{
+  background-color: #ddd;
+  margin: auto;
+  width: 1280px;
+}
+
+nav{
+  position: fixed;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  width: 1280px;
+  z-index: 2;
+}
+
+nav img{
+  height: 40px;
+  margin-right: 390px;
+}
+
+nav a{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  margin-right: 70px;
+  color: #2b2f26;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: #cd5d67;
+}
+
+#about-link{
+  color: #968772;
+}
+
+#about-link:hover{
+  color: #cd5d67;
+}
+
+.main{
+  /*margin-top: 70px;*/
+  width: 1310px;
+  background-color: #f2f1e8;
+  display: inline-block;
+}
+
+.main a{
+  color: #968772;
+}
+
+.main a:hover{
+  color: #cd5d67;
+}
+
+#community{
+  width: 75%;
+  margin: auto;
+}
+
+#community h1{
+  width: 100%;
+  font-size: 5em;
+  margin-top: 140px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+#community img{
+  position: relative;
+  float: left;
+  height: 120px;
+  margin: 0px 30px 20px 20px;
+}
+
+#community p{
+  font-family: "Merriweather", serif;
+  line-height: 1.7;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+blockquote {
+  font-size: 1.2em;
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  line-height: 1.9;
+  font-style: italic;
+  color: #444;
+  border-left: 2px solid #968772;
+  padding-left: 30px;
+  margin-left: 0px;
+}
+
+#history{
+  margin-top: 300px;
+  font-family: "Merriweather", serif;
+  width: 75%;
+  margin: auto;
+}
+
+#history p{
+  font-family: "Merriweather", serif;
+  line-height: 1.7;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+#grow{
+  background-image: url("../images/background-3.jpg");
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#grow p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  padding-top: 100px;
+  font-size: 4em;
+  font-family: "Merriweather", serif;
+}
+
+#facilities{
+  padding-top: 50px;
+  font-family: "Merriweather", serif;
+  width: 75%;
+  margin: auto;
+}
+
+#facilities{
+  font-family: "Merriweather", serif;
+  line-height: 1.7;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+#plans{
+  margin-top: 300px;
+  font-family: "Merriweather", serif;
+  width: 75%;
+  margin: auto;
+}
+
+h2{
+  width: 100%;
+  font-size: 1.7em;
+  margin-top: 50px;
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  position: relative;
+  float: right;
+}
+
+figure img{
+  height: 120px;
+  position: relative;
+  float: left;
+  height: 120px;
+  margin: 0px 30px 20px 20px;
+}
+
+figcaption {
+  font-family: "Merriweather",serif;
+  padding: 0px 19px 0px 20px;
+  font-size: 0.7em;
+  line-height: 1.6;
+  font-weight: 100;
+  margin-top: -10px;
+}
+
+table{
+  border-collapse: collapse;
+  margin-bottom: 60px;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 20px 30px;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.odd-row{
+  background-color: #F2EADC;
+}
+
+
+footer{
+  width: 1260px;
+  background-color: #2B2F26;
+  padding: 25px;
+  color: white;
+  font-size: 1.2em;
+}

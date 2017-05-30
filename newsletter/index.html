@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- NEWSLETTER PAGE -->
+
+<!-- Import fonts:
+  Google Fonts - Lara | Roboto
+  url: https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7CRoboto:300,300i,400,400i
+ -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/bent-creek-icon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bent Creek Ceramics- Newsletter</title>
+  </head>
+  <body>
+    <nav>
+      <img src="../images/bent-creek-logo.png" alt="Bent Creek Logo">
+      <a href="../index.html" id="home-link">Home</a>
+      <a href="../about/index.html" id="about-link">About</a>
+      <a href="../newsletter/index.html" id="newsletter-link">Newsletter</a>
+    </nav>
+
+    <section class="main">
+
+      <section id="card">
+        <h1>Sign Up for Our Weekly Newsletter</h1>
+        <h3>Stay up to date with events, activities, news and specials.</h3>
+        <form>
+          <fieldset>
+            <div class="inputs">
+              <!-- <label for="name">Name:</label> -->
+              <input type="text" id="nameInput" name="name" value="Name">
+              <br>
+              <!-- <label for="email">Email:</label> -->
+              <input type="email" id="emailInput" name="email" value= "Email">
+            </div>
+          <div class="submit">
+            <input type="submit" id="signupButton" value="Submit">
+          </div>
+          </fieldset>
+        </form>
+      </section>
+
+    </section>
+
+
+    <footer><p>Copyright 2017, Bent Creek Ceramics</p></footer>
+
+    <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
+
+  </body>
+</html>
